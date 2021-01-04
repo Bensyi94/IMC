@@ -32,7 +32,7 @@ func outputMessage(){
       print("\n\(nombre),\nVerifica los datos ingresados\nPeso: \(peso)\nAltura\(altura)\nPRESIONA ENTER")
       readLine()!
       system("clear")
-      print("Bienvenido \(nombre),")
+      print("Bienvenido \(nombre)\n")
       catchInput()
     }
   }
