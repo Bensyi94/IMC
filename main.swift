@@ -14,7 +14,9 @@ if imc < 18.5{
   }
   if imc >= 25 && imc <= 29.9{
     print("\(nombre),\nSu IMC es de: \(imc)\nLo que indica que tiene sobrepeso")
-  }else{
+  }if imc > 30{
     print("\(nombre),\nSu IMC es de: \(imc)\nLo que indica que padece de obesidad")
+  }else{
+    print("Verifica los datos ingresados")
   }
 }
